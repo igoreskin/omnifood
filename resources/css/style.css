@@ -103,6 +103,19 @@ h2:after {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    /* to align text with icons: */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
 /* ----- BUTTIONS ----- */
 
 .btn:link,
@@ -300,6 +313,11 @@ header {
 /* CITIES */
 /* ---------------------------------------------- */
 
-.city-image img {
-    width: 100%
+.box img {
+    width: 100%;
+    margin-bottom: 15px;
+} 
+
+.city-feature {
+    margin-bottom: 5px;
 }
