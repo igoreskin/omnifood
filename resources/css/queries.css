@@ -37,6 +37,13 @@
     .contact-form { width: 80%; }
 }
 
+/* This shouldn't be necessary at all, but without it the navbar doesn't come back when making the screen again larger than 767px: */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
 /* Small phones to small tablets: from 481px to 767px */
 
 @media only screen and (max-width: 767px) {
@@ -50,7 +57,7 @@
         margin: 0 0 4% 0;
     } 
 
-    .main-nav {display: none; }
+    .main-nav { display: none; }
     .mobile-nav-icon { display: inline-block; }
 
     .main-nav {
