@@ -633,8 +633,8 @@ footer p {
 .js--wp-2,
 .js--wp-3 {
     opacity: 0;
-    -webkit-animation-direction: 1s;
-            animation-direction: 1s;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
 }
 
 .js--wp-4 {
